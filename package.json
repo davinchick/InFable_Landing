@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/davinchick/InFable_Landing",
+  "homepage": "https://github.com/davinchick/infable_landing",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
