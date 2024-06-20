@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -15,6 +16,7 @@ const Services = () => {
         {servicesList.map((service) => {
           return (
             <Card
+              key={service.title}
               title={service.title}
               heading={service.heading}
               icon={<AceternityIcon order={service.title} />}

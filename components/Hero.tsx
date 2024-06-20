@@ -1,3 +1,4 @@
+"use client";
 import { GiAbstract051 } from "react-icons/gi";
 
 import MagicButton from "./MagicButton";

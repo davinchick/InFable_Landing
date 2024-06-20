@@ -5,9 +5,13 @@ const nextConfig = {};
 export default withSentryConfig(
   nextConfig,
   {
+    // For all available options, see:
+    // https://github.com/getsentry/sentry-webpack-plugin#options
+
+    // Suppresses source map uploading logs during build
     silent: true,
-    org: "inFable_landing",
-    project: "inFable_landing",
+    org: "javascript-mastery",
+    project: "javascript-nextjs",
   },
   {
     // For all available options, see:

@@ -11,9 +11,10 @@ export const NotFound = () => {
         </div>
 
         <h3 className="w-[60%] p-20 mt-60 text-4xl">
-          It seems like you've landed on a 404 page. This can happen if you
-          mistyped the URL, the page has been moved or deleted, or there's a
-          temporary issue with the server. We're working to fix the problem.
+          It seems like you&apos;ve landed on a 404 page. This can happen if you
+          mistyped the URL, the page has been moved or deleted, or there&apos;s
+          a temporary issue with the server. We&apos;re working to fix the
+          problem.
         </h3>
       </div>
     </main>

@@ -10,7 +10,16 @@ export const metadata: Metadata = {
   title: "Infable Game Studio",
   description: "Modern & Gorgeous game studio",
   applicationName: "Modern & Gorgeous game studio",
-  authors: ["Alexey Tymakov", "Anastasiya Noir"],
+  authors: [
+    {
+      name: "Alexey Tymakov",
+      url: "https://github.com/davinchick/infable_landing",
+    },
+    {
+      name: "Anastasiya Noir",
+      url: "https://github.com/davinchick/infable_landing",
+    },
+  ],
   generator: "game studio, Gamedev, blog, InFable", // keywords
   keywords: "game studio, Gamedev, blog, InFable", // keywords
   colorScheme: "dark",

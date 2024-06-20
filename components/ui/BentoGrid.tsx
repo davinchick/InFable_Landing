@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -128,6 +129,7 @@ export const BentoGridItem = ({
 
           {(title as string)?.split("<br>").map((t: string) => (
             <div
+              key={t}
               className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
             >
               {t}

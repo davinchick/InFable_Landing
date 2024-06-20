@@ -119,24 +119,28 @@ export const clientsList = [
     name: "Unreal Engine",
     img: "/ue.svg",
     title: "Unreal Engine",
+    nameImg: null,
   },
   {
     id: 2,
     name: "Unreal Engine",
     img: "/ps4.svg",
     title: "Maya 3D",
+    nameImg: null,
   },
   {
     id: 3,
     name: "Unreal Engine",
     img: "/ue.svg",
     title: "3ds Max",
+    nameImg: null,
   },
   {
     id: 5,
     name: "Unreal Engine",
     img: "/zbr.svg",
     title: "ZBrush",
+    nameImg: null,
   },
 ];
 
